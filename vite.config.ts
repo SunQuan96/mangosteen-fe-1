@@ -3,12 +3,13 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx  from "@vitejs/plugin-vue-jsx";
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/mangosteen-fe-1/dist/',
+  // base:'/mangosteen-fe-1/dist/',
   plugins: [
     vue(),
     vueJsx({
       transformOn:true,
-      mergeProps:true
+      mergeProps:true,
+      // extensions:['.tsx','.vue'],
     })
   ]
 })

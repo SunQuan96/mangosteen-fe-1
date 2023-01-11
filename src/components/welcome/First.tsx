@@ -1,7 +1,7 @@
 import { defineComponent} from 'vue';
-export const Frist =defineComponent({
+export const First =defineComponent({
 setup:(props,context)=>{
 return() => (
-<div>Frist</div>)
+<div>First</div>)
 }
 })

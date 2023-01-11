@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "naive-ui": "2.34.3",
+    "sass": "1.57.1",
     "vue": "3.2.25",
     "vue-router": "4.1.6"
   },
