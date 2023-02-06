@@ -1,5 +1,5 @@
-import { defineComponent, PropType } from 'vue';
-import { RouterView } from 'vue-router';
+import { defineComponent, PropType } from 'vue'
+import { RouterView } from 'vue-router'
 export const TagPage = defineComponent({
   props: {
     name: {
@@ -7,9 +7,7 @@ export const TagPage = defineComponent({
     }
   },
   setup: (props, context) => {
-    return () => (
-      <RouterView />
-    )
+    return () => <RouterView />
   }
 })
 
