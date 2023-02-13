@@ -73,6 +73,7 @@ export default defineConfig(({ command }) => {
         }
       })
     ],
+    base: '',
     server: {
       proxy: {
         '/api/v1': {
