@@ -4,7 +4,8 @@
 
 ```bash
 pnpm run build --base /
-bin/coscli-linux cp -r dist cos:///mangosteen-t3-1316849042
+bin/coscli-linux cp -r dist cos:///mangosteen-t3-1316849042(tencent)
+bin/ossutil64 cp -ru dist oss://mangosteen-t4(ali)
 ```
 
 ## 编码规范
