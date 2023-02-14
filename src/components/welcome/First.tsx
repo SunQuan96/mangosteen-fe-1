@@ -7,9 +7,9 @@ export const First: FunctionalComponent = () => {
         <use xlinkHref="#pig"></use>
       </svg>
       <h2>
-        会挣钱
+        最初
         <br />
-        还会省钱
+        没人在意这些消费
       </h2>
     </div>
   )

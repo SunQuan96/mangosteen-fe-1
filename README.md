@@ -4,7 +4,7 @@
 
 ```bash
 pnpm run build --base /
-bin/coscli-linux cp -r dist cos://mangosteen-test-3-1305090081
+bin/coscli-linux cp -r dist cos:///mangosteen-t3-1316849042
 ```
 
 ## 编码规范
@@ -14,13 +14,13 @@ bin/coscli-linux cp -r dist cos://mangosteen-test-3-1305090081
 推荐使用
 
 ```tsx
-const div = ref<HTMLDivElement>();
+const div = ref<HTMLDivElement>()
 ```
 
 不推荐使用
 
 ```tsx
-const div = ref<HTMLDivElement | null>(null);
+const div = ref<HTMLDivElement | null>(null)
 ```
 
 ## 如何开发

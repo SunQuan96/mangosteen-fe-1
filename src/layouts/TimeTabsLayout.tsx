@@ -73,7 +73,7 @@ export const TimeTabsLayout = defineComponent({
     return () => (
       <MainLayout>
         {{
-          title: () => '小竹记账',
+          title: () => 'MOSS store',
           icon: () => <OverlayIcon />,
           default: () => (
             <>
@@ -121,7 +121,7 @@ export const TimeTabsLayout = defineComponent({
                   <main>
                     <Form onSubmit={onSubmitCustomTime}>
                       <FormItem label="开始时间" v-model={tempTime.start} type="date" />
-                      <FormItem label="结束时间" v-model={tempTime.end} type="date" />
+                      <FormItem label="结束时间（不包含）" v-model={tempTime.end} type="date" />
                       <FormItem>
                         <div class={s.actions}>
                           <button type="button" onClick={() => (refOverlayVisible.value = false)}>

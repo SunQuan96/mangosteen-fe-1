@@ -32,7 +32,7 @@ export const Welcome = defineComponent({
           <svg>
             <use xlinkHref="#mangosteen"></use>
           </svg>
-          <h1>小竹记账</h1>
+          <h1>MOSS store</h1>
         </header>
         <main class={s.main} ref={main}>
           <RouterView name="main">

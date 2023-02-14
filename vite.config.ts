@@ -54,9 +54,9 @@ export default defineConfig(({ command }) => {
         },
         includeAssets: ['favicon.ico', 'pwa-192x192.png', 'pwa-512x512.png'],
         manifest: {
-          name: '小竹记账',
-          short_name: '小竹',
-          description: '小竹记账',
+          name: 'MOSS store',
+          short_name: 'MOSS',
+          description: 'MOSS store',
           theme_color: '#ffffff',
           icons: [
             {
@@ -73,7 +73,6 @@ export default defineConfig(({ command }) => {
         }
       })
     ],
-    baseUrl: './',
     server: {
       proxy: {
         '/api/v1': {

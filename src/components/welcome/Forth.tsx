@@ -5,9 +5,9 @@ export const Forth = () => (
       <use xlinkHref="#cloud"></use>
     </svg>
     <h2>
-      每日提醒
+      它已经成为人们生活的一部分
       <br />
-      不遗漏每一笔账单
+      550W量子计帐
     </h2>
   </div>
 )
